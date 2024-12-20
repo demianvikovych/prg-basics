@@ -40,18 +40,13 @@ class TV:
 tv = TV()
 tv.set_channels(["TVP1", "TVP2", "Polsat", "TVN", "Filmbox", "Discovery", "National Geographic"])
 tv.turn_on()
-
 tv.set_channel(4)
 tv.show_status()
-
 tv.set_channel(7)
 tv.show_status()
-
 tv.set_channel(2)
 tv.show_status()
-
 tv.set_channel(10)
 tv.show_status()
-
 tv.turn_off()
 tv.show_status()
